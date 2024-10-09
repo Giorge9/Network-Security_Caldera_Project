@@ -1,0 +1,1 @@
+Start-Process -FilePath "C:\Program Files\7-Zip\7z.exe" -ArgumentList "x `"$env:TEMP\Mattattack.7z`" -o`"$env:TEMP`"" -Wait -WindowStyle Hidden
